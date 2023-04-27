@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:beige ;
+    
+}
+.main{
+    justify-content: center;
+}
+.login{
+    background-color: aliceblue;
+    border: 1px solid ;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 50px;
+    padding-left: 150px;
+    padding-bottom: 150px;
+    margin-bottom: 40px;   
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+font-size: 60px;
+margin-bottom: 40px;
+margin-left: 4px;
+margin-top: 15px;
+}
+.email{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.mail{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 4px;
+}
+.password{
+    font-size: 30px;
+}
+.pass{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 4px;
+}
+button{
+    border-radius: 12px;
+    margin-top: 12px;
+    padding: 6px;
+    margin-bottom: 15px;
+    background-color: aquamarine;
+    width: 30%;
+}
+button:hover{
+    color: blue;
+    
+}
+.last{
+    margin-top: 12px;
+}
+a:hover{
+color: red;
+}
+@media (max-width:1200px){
+    .login{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 25px;
+        padding-left: 75px;
+        padding-bottom: 75px;
+        margin-bottom: 20px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+@media (max-width:1000px) {
+    .login{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 25px;
+        margin-left: 175px;
+        margin-right: 175px;
+        padding: 22px;
+        padding-left: 70px;
+        padding-bottom: 70px;
+        margin-bottom: 17px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+@media (max-width:970px){
+    h1{
+        font-size: 40px;
+        margin-bottom: 25px;
+        margin-left: 3px;
+        margin-top: 3px;
+        }
+
+}
+
+@media (max-width:850px){
+    h1{
+        font-size: 30px;
+        margin-bottom: 18px;
+        margin-left: 2px;
+        margin-top: 2px;
+        }
+    button{
+        border-radius: 9px;
+        margin-top: 14px;
+        padding: 4px;
+        margin-bottom: 16px;
+        background-color: aquamarine;
+        width: 30%;
+    }
+}
+@media (max-width:790px){
+    
+    .mail{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        width: 60%;
+        padding: 5px;
+    }
+    .pass{
+        margin-top: 12px;
+        margin-bottom: 10px;
+        width: 60%;
+        padding:5px;
+    }
+    .login{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 30px;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 24px;
+        padding-left: 20px;
+        padding-bottom: 60px;
+        margin-bottom: 17px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+@media (max-width:730px){
+    
+    .mail{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 70%;
+        padding: 5px;
+    }
+    .pass{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 70%;
+        padding:5px;
+    }
+    button{
+        border-radius: 10px;
+        margin-top: 12px;
+        padding: 5px;
+        margin-bottom: 14px;
+        background-color: aquamarine;
+        width: 40%;
+    }
+    .Sign{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-right: 140px;
+        padding: 25px;
+        padding-left: 22px;
+        padding-bottom: 70px;
+        margin-bottom: 17px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+}
+@media (max-width:690px){
+    
+    .mail{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 80%;
+        padding: 5px;
+    }
+    .pass{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 80%;
+        padding:5px;
+    }
+    button{
+        border-radius: 10px;
+        margin-top: 12px;
+        padding: 5px;
+        margin-bottom: 14px;
+        background-color: aquamarine;
+        width: 60%;
+    }
+    .login{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 30px;
+        margin-left: 130px;
+        margin-right: 130px;
+        padding: 24px;
+        padding-left: 20px;
+        padding-bottom: 60px;
+        margin-bottom: 17px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+}
+@media (max-width:690px){
+   
+    .mail{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 90%;
+        padding: 6px;
+    }
+    .pass{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 90%;
+        padding:6px;
+    }
+    button{
+        border-radius: 10px;
+        margin-top: 12px;
+        padding: 6px;
+        margin-bottom: 14px;
+        background-color: aquamarine;
+        width: 90%;
+    }
+    .last{
+        font-size: 12px;
+    }
+    .login{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 25px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 22px;
+        padding-left: 70px;
+        padding-bottom: 50px;
+        margin-bottom: 17px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+}
+@media (max-width:460px){
+    
+    .mail{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 93%;
+        padding: 6px;
+    }
+    .pass{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 93%;
+        padding:6px;
+    }
+    button{
+        border-radius: 10px;
+        margin-top: 12px;
+        padding: 6px;
+        margin-bottom: 14px;
+        background-color: aquamarine;
+        width: 93%;
+    }
+    .last{
+        font-size: 12px;
+    }
+    .login{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 25px;
+        margin-left: 95px;
+        margin-right: 95px;
+        padding: 24px;
+        padding-left: 55px;
+        padding-bottom: 40px;
+        margin-bottom: 14px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+}
+@media (max-width:435px){
+    
+    .mail{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 95%;
+        padding: 7px;
+    }
+    .pass{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 95%;
+        padding:7px;
+    }
+    button{
+        border-radius: 10px;
+        margin-top: 12px;
+        padding: 6px;
+        margin-bottom: 14px;
+        background-color: aquamarine;
+        width: 95%;
+    }
+    .last{
+        font-size: 12px;
+    }
+    .Sign{
+        background-color: aliceblue;
+        border: 1px solid ;
+        margin-top: 15px;
+        margin-left: 75px;
+        margin-right: 75px;
+        padding: 26px;
+        padding-left: 45px;
+        padding-bottom: 30px;
+        margin-bottom: 12px;   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+}
+
+
